@@ -1,5 +1,5 @@
-[submodule "libs/curlpp"]
-	path = libs/curlpp
+[submodule "extern_libs/curlpp"]
+	path = extern_libs/curlpp
 	url = https://github.com/jpbarrette/curlpp.git
 [submodule "extern_libs/pugixml"]
 	path = extern_libs/pugixml
