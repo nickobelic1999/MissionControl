@@ -2,15 +2,27 @@
 // Created by nickobelic1999 on 7/17/22.
 //
 
-#ifndef MISSIONCONTROL_REQUESTHTTP_HPP
-#define MISSIONCONTROL_REQUESTHTTP_HPP
+#pragma once
 
-namespace MissionControl_HTTP {
+#include <iostream>
 
-    class RequestHTTP {
+#include <arpa/inet.h>
+
+#include <curlpp/Easy.hpp>
+#include <curlpp/Multi.hpp>
+#include <curlpp/Options.hpp>
+
+
+namespace MissionControl_HTTP
+{
+
+    class RequestHTTP
+    {
+    public:
+
+    private:
 
     };
 
 } // MissionControl_HTTP
 
-#endif //MISSIONCONTROL_REQUESTHTTP_HPP

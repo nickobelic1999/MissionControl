@@ -4,5 +4,3 @@
 
 #include "RequestHTTP.hpp"
 
-namespace MissionControl_HTTP {
-} // MissionControl_HTTP
