@@ -16,10 +16,16 @@
 namespace MissionControl_HTTP
 {
 
-    class RequestHTTP
+    enum class Method { Get, Head, Post, Put, Delete };
+
+    class httpEngine
     {
     public:
 
+        constexpr const char* MethodToString(Method& method) throw();
+
+        httpEngine();
+        ~httpEngine();
     private:
 
     };

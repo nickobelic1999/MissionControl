@@ -3,6 +3,6 @@ project(MissionControl_HTTP)
 
 include_directories(./extern_libs/curlpp/include/curlpp)
 
-add_library(MissionControl_HTTP RequestHTTP.cpp RequestHTTP.hpp)
+add_library(MissionControl_HTTP httpEngine.cpp httpEngine.hpp)
 
 target_link_libraries(MissionControl_HTTP curlpp)

@@ -9,8 +9,8 @@ include_directories(./extern_libs/curlpp/include/curlpp)
 add_subdirectory(./extern_libs/pugixml)
 include_directories(./extern_libs/pugixml/src/)
 
-add_subdirectory(./http)
-include_directories(./http)
+add_subdirectory(http)
+include_directories(http)
 
 add_subdirectory(./toolbox)
 include_directories(./toolbox)
