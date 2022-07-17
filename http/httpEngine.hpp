@@ -22,7 +22,7 @@ namespace MissionControl_HTTP
     {
     public:
 
-        constexpr const char* MethodToString(Method& method) throw();
+        constexpr const char* Method2String(Method& method) throw();
 
         httpEngine();
         ~httpEngine();
