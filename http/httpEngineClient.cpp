@@ -2,11 +2,11 @@
 // Created by nickobelic1999 on 7/17/22.
 //
 
-#include "httpEngine.hpp"
+#include "httpEngineClient.hpp"
 
 using namespace MissionControl_HTTP;
 
-constexpr const char* httpEngine::Method2String(Method& method) throw()
+constexpr const char* httpEngineClient::Method2String(Method& method) throw()
 {
     switch(method)
     {
@@ -28,8 +28,10 @@ constexpr const char* httpEngine::Method2String(Method& method) throw()
     return NULL;
 }
 
-httpEngine::httpEngine()
+
+
+httpEngineClient::httpEngineClient()
 {}
 
-httpEngine::~httpEngine()
+httpEngineClient::~httpEngineClient()
 {}
